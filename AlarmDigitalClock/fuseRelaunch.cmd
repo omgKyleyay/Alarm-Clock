@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch_tb_isim_beh.exe" -prj "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch_tb_beh.prj" "work.FinalWatch_tb" 

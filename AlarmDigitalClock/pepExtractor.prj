@@ -1,0 +1,5 @@
+work	"AM_PM.vhd"
+work	"Counter3bit.vhd"
+work	"Counter4bit.vhd"
+work	"Counter5bit.vhd"
+work	"FinalWatch.vhd"

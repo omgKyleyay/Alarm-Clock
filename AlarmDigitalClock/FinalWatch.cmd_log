@@ -1,0 +1,147 @@
+xst -intstyle ise -ifn "G:/DigitalClock/FinalWatch.xst" -ofn "G:/DigitalClock/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/DigitalClock/FinalWatch.xst" -ofn "E:/DigitalClock/FinalWatch.syr" 
+xst -intstyle ise -ifn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.xst" -ofn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.xst" -ofn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.xst" -ofn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.xst" -ofn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.xst" -ofn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.xst" -ofn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.xst" -ofn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.xst" -ofn "C:/Users/stRi617Go6765/Desktop/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 
+xst -intstyle ise -ifn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.xst" -ofn "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarmwatch.ucf -p xc6slx45-csg324-3 "FinalWatch.ngc" FinalWatch.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FinalWatch_map.ncd FinalWatch.ngd FinalWatch.pcf 
+par -w -intstyle ise -ol high -mt off FinalWatch_map.ncd FinalWatch.ncd FinalWatch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FinalWatch.twx FinalWatch.ncd -o FinalWatch.twr FinalWatch.pcf -ucf alarmwatch.ucf 
+bitgen -intstyle ise -f FinalWatch.ut FinalWatch.ncd 

@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Wed May 02 09:06:17 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "alarmHr<3>" LOCATE = SITE "E4" LEVEL 1;
+COMP "hours4bits<0>" LOCATE = SITE "M13" LEVEL 1;
+COMP "hours4bits<1>" LOCATE = SITE "D4" LEVEL 1;
+COMP "minMSB<0>" LOCATE = SITE "M14" LEVEL 1;
+COMP "reset" LOCATE = SITE "A10" LEVEL 1;
+COMP "hours4bits<2>" LOCATE = SITE "P16" LEVEL 1;
+COMP "minMSB<1>" LOCATE = SITE "N14" LEVEL 1;
+COMP "hours4bits<3>" LOCATE = SITE "N12" LEVEL 1;
+COMP "minMSB<2>" LOCATE = SITE "L14" LEVEL 1;
+COMP "alarmMin<0>" LOCATE = SITE "D14" LEVEL 1;
+COMP "alarmMin<1>" LOCATE = SITE "C14" LEVEL 1;
+COMP "alarmMin<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "alarm" LOCATE = SITE "U18" LEVEL 1;
+COMP "clk" LOCATE = SITE "L15" LEVEL 1;
+COMP "alarmHr<0>" LOCATE = SITE "P12" LEVEL 1;
+COMP "alarmHr<1>" LOCATE = SITE "R5" LEVEL 1;
+COMP "alarmHr<2>" LOCATE = SITE "T5" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,7 @@
+NET "count<0>"			LOC="U18"  | IOSTANDARD=LVTTL;
+NET "count<1>"			LOC="M14"  | IOSTANDARD=LVTTL;
+
+NET "reset"				LOC="A10"  | IOSTANDARD=LVTTL;   # SW0
+
+NET "clk"				LOC="L15"  | IOSTANDARD=LVTTL;   # IFCLK	
+//NET "clk"   LOC = "L15"| IOSTANDARD=LVTTL; # Bank = 1, Pin name = IO_L42P_GCLK7_M1UDM, Type = GCLK, Sch name = GCLK	

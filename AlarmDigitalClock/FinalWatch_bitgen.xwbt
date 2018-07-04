@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Barry\Computer Hardware\DigitalClock_RGomez\FinalWatch.ncd
+OUTFILE=E:\Barry\Computer Hardware\DigitalClock_RGomez\FinalWatch.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=E:\Barry\Computer Hardware\DigitalClock_RGomez
+LICENSE=WebPack
+USER_INFO=174475390_175233729_0_877

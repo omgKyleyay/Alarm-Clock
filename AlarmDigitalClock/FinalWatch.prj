@@ -1,0 +1,3 @@
+vhdl work "Counter5bit.vhd"
+vhdl work "Counter3bit.vhd"
+vhdl work "FinalWatch.vhd"

@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch_tb_isim_beh.exe -prj E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch_tb_beh.prj work.FinalWatch_tb 
+ISim P.28xd (signature 0x1048c146)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/Barry/Computer Hardware/DigitalClock_RGomez/Counter5bit.vhd" into library work
+Parsing VHDL file "E:/Barry/Computer Hardware/DigitalClock_RGomez/Counter4bit.vhd" into library work
+Parsing VHDL file "E:/Barry/Computer Hardware/DigitalClock_RGomez/Counter3bit.vhd" into library work
+Parsing VHDL file "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch.vhd" into library work
+Parsing VHDL file "E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 163884 KB
+Fuse CPU Usage: 233 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Counter4bit [counter4bit_default]
+Compiling architecture behavioral of entity Counter3bit [counter3bit_default]
+Compiling architecture behavioral of entity Counter5bit [counter5bit_default]
+Compiling architecture structural of entity FinalWatch [finalwatch_default]
+Compiling architecture behavior of entity finalwatch_tb
+Time Resolution for simulation is 1ps.
+Compiled 13 VHDL Units
+Built simulation executable E:/Barry/Computer Hardware/DigitalClock_RGomez/FinalWatch_tb_isim_beh.exe
+Fuse Memory Usage: 181836 KB
+Fuse CPU Usage: 390 ms
